@@ -43,7 +43,7 @@ Opción B — subir un ZIP:
 
 - [ ] Completar los integrantes de la comisión en `main.tex` (`\comision{...}`), con
       **nombre y los dos apellidos** de cada uno (Biblioteca lo revisa).
-- [ ] Confirmar el título definitivo y el alcance (Francia, o Francia + Chile).
+- [ ] Confirmar el título definitivo y el alcance.
 - [ ] Redactar el resumen ejecutivo (1 página) al final.
 - [ ] Reemplazar los comentarios guía de cada sección por el texto real.
 - [ ] Revisar las citas de `bibliografia.bib` (las de cohesión partidaria están por confirmar).
