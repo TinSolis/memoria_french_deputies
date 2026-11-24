@@ -1,25 +1,10 @@
 # Memoria — informe final (LaTeX, plantilla FCFM/UChile)
 
-Esqueleto de la memoria usando la clase `umemoria` de [dccuchile/memoria- tesis-latex](https://github.com/dccuchile/memoria-tesis-latex), que ya cumple con el [Manual de Normalización de Formato y Escritura](https://repositorio.uchile.cl/handle/2250/185276)
-de la FCFM (tamaño carta, márgenes 3/2/2/2 cm, portada, numeración romana/arábiga, etc.).
+> **Estado: cerrada.** Memoria de Ingeniería Civil en Computación defendida el 16-nov-2026 y aprobada por la comisión. El PDF final defendido vive en el repo de análisis, [TinSolis/tesis-french-deputies-analysis](https://github.com/TinSolis/tesis-french-deputies-analysis) (`memoria_agustin_solis_meza.pdf`). El `main.pdf` de este repo es una compilación antigua.
 
-## Cómo trabajar en Overleaf
+Fuente LaTeX de la memoria con la clase `umemoria` de [dccuchile/memoria-tesis-latex](https://github.com/dccuchile/memoria-tesis-latex), que cumple el [Manual de Normalización de Formato y Escritura](https://repositorio.uchile.cl/handle/2250/185276) de la FCFM (tamaño carta, márgenes 3/2/2/2 cm, portada, numeración romana/arábiga, etc.).
 
-Opción A — importar desde GitHub (recomendada, mantiene todo sincronizado):
-
-1. Subir este repo a GitHub.
-2. En Overleaf: **New Project → Import from GitHub** y elegir el repo.
-3. En **Menu → Settings**: *Compiler* = `pdfLaTeX`, *Main document* = `memoria/main.tex`.
-
-Opción B — subir un ZIP:
-
-1. Comprimir **solo la carpeta `memoria/`** (`zip -r memoria.zip memoria`).
-2. En Overleaf: **New Project → Upload Project** y subir el ZIP.
-3. Compilador `pdfLaTeX`, documento principal `main.tex`.
-
-> No hay LaTeX instalado localmente, por eso la compilación se hace en Overleaf.
-> Si luego instalas una distribución (MacTeX), puedes compilar con
-> `latexmk -pdf main.tex` dentro de `memoria/`.
+Este repo está sincronizado con Overleaf (*Import from GitHub*; compilador `pdfLaTeX`, documento principal `main.tex`). Localmente vive clonado en `memoria_ing_civil/manuscrito/`.
 
 ## Estructura de archivos
 
@@ -34,7 +19,7 @@ Opción B — subir un ZIP:
 | `cap_discusion.tex`     | Capítulo 5 — Discusión (optativo según el manual).                               |
 | `conclu.tex`            | Capítulo 6 — Conclusiones.                                                       |
 | `anexoA.tex`            | Anexo A — material complementario.                                               |
-| `bibliografia.bib`      | Referencias en BibTeX (sembradas desde `REFERENCIAS.md`).                        |
+| `bibliografia.bib`      | Referencias en BibTeX (sembradas desde `contexto/referencias.md` del repo de análisis). |
 | `umemoria.cls`          | Clase LaTeX de la FCFM (no editar).                                              |
 | `imagenes/`             | Escudo U. de Chile y logo FCFM para la portada.                                  |
 
