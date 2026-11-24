@@ -1,10 +1,8 @@
-# Memoria — informe final (LaTeX, plantilla FCFM/UChile)
+# Memoria: LaTeX
 
-> **Estado: cerrada.** Memoria de Ingeniería Civil en Computación defendida el 16-nov-2026 y aprobada por la comisión. El PDF final defendido vive en el repo de análisis, [TinSolis/tesis-french-deputies-analysis](https://github.com/TinSolis/tesis-french-deputies-analysis) (`memoria_agustin_solis_meza.pdf`). El `main.pdf` de este repo es una compilación antigua.
+Este repo tiene el LaTeX de mi memoria de Ingeniería Civil en Computación. La defendí el 16 de noviembre de 2026 y me la aprobaron, así que ya no lo modifico. El PDF final que defendí está en el repo del proyecto, [tesis-french-deputies-analysis](https://github.com/TinSolis/tesis-french-deputies-analysis) (`memoria_agustin_solis_meza.pdf`). El `main.pdf` que está aquí es una compilación antigua.
 
-Fuente LaTeX de la memoria con la clase `umemoria` de [dccuchile/memoria-tesis-latex](https://github.com/dccuchile/memoria-tesis-latex), que cumple el [Manual de Normalización de Formato y Escritura](https://repositorio.uchile.cl/handle/2250/185276) de la FCFM (tamaño carta, márgenes 3/2/2/2 cm, portada, numeración romana/arábiga, etc.).
-
-Este repo está sincronizado con Overleaf (*Import from GitHub*; compilador `pdfLaTeX`, documento principal `main.tex`). Localmente vive clonado en `memoria_ing_civil/manuscrito/`.
+Usé la clase `umemoria` de [dccuchile/memoria-tesis-latex](https://github.com/dccuchile/memoria-tesis-latex), que cumple el [Manual de Normalización de Formato y Escritura](https://repositorio.uchile.cl/handle/2250/185276) de la FCFM (tamaño carta, márgenes de 3/2/2/2 cm, portada, numeración romana y arábiga, etc.). Lo escribí en Overleaf, importado desde este repo, con el compilador `pdfLaTeX` y `main.tex` como documento principal.
 
 ## Estructura de archivos
 
@@ -19,18 +17,6 @@ Este repo está sincronizado con Overleaf (*Import from GitHub*; compilador `pdf
 | `cap_discusion.tex`     | Capítulo 5 — Discusión (optativo según el manual).                               |
 | `conclu.tex`            | Capítulo 6 — Conclusiones.                                                       |
 | `anexoA.tex`            | Anexo A — material complementario.                                               |
-| `bibliografia.bib`      | Referencias en BibTeX (sembradas desde `contexto/referencias.md` del repo de análisis). |
+| `bibliografia.bib`      | Referencias en BibTeX (partí de `contexto/referencias.md` del repo del proyecto). |
 | `umemoria.cls`          | Clase LaTeX de la FCFM (no editar).                                              |
 | `imagenes/`             | Escudo U. de Chile y logo FCFM para la portada.                                  |
-
-
-## Pendientes antes de la entrega
-
-- [ ] Completar los integrantes de la comisión en `main.tex` (`\comision{...}`), con
-  ```
-  **nombre y los dos apellidos** de cada uno (Biblioteca lo revisa).
-  ```
-- [ ] Confirmar el título definitivo y el alcance (Francia, o Francia + Chile).
-- [ ] Redactar el resumen ejecutivo (1 página) al final.
-- [ ] Reemplazar los comentarios guía de cada sección por el texto real.
-- [ ] Revisar las citas de `bibliografia.bib` (las de cohesión partidaria están por confirmar).
